@@ -1,0 +1,21 @@
+
+body {
+    background-color: bisque;
+}
+
+p {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+#titulo {
+text-align: center;
+    font-size: 30px;
+}
+
+
+#lista-pokemon {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
